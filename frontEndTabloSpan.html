@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td{
+        border: solid 1px black;
+        } 
+        td{
+        text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <!-- tabloda başlıklar -->
+        <h2>Tablonun İlk Hali</h2>
+        <tr>
+            <th>Adı</th>
+            <th>Soyadı</th>
+            <th>T.C.NO</th>
+            <th>Semt</th>
+        </tr>
+
+        <tr>
+            <!-- tabloda hücre değeri -->
+            <td>Ayşe</td>
+            <td>Demir</td>
+            <td>51002348956</td>
+            <td>Bakırköy</td>
+
+            <tr>
+                <td>Mehmet</td>
+                <td >Karakaya</td>
+                <td>21563548596</td>
+                <td>Kadıköy</td>
+            </tr>
+
+            <tr>
+                <td>Mine</td>
+                <td>Yaşar</td>
+                <td>22545662487</td>
+                <td>Bostancı</td>
+            </tr>
+
+            <tr>
+                <td>Ömür</td>
+                <td>Toprak</td>
+                <td>53458962345</td>
+                <td>Beşiktaş</td>
+            </tr>
+
+        </tr>
+    </table>
+    <br>
+    <br>
+    <table>
+        <h2>Tablonun 2.satırın 4.sütunu ile 2.satırın 3.sütununa colspan uygulanmış ve</h2>
+        <h2>Tablonun 3.satırın 4.sütunu ile 4.satırın 4.sütununa rowspan uygulanmış hali</h2>
+        
+        <tr>
+            <th>Adı</th>
+            <th>Soyadı</th>
+            <th>T.C.NO</th>
+            <th>Semt</th>
+        </tr>
+
+        <tr>
+            <!-- tabloda hücre değeri -->
+            <td>Ayşe</td>
+            <td>Demir</td>
+            <td>51002348956</td>
+            <td>Bakırköy</td>
+
+            <tr>
+                <td>Mehmet</td>
+                <td>Karakaya</td>
+                <td colspan="2">21563548596</td>
+                <!-- <td>Kadıköy</td> -->
+            </tr>
+
+            <tr>
+                <td>Mine</td>
+                <td>Yaşar</td>
+                <td>22545662487</td>
+                <td rowspan="2">Bostancı</td>
+            </tr>
+
+            <tr>
+                <td>Ömür</td>
+                <td>Toprak</td>
+                <td>53458962345</td>
+                <!-- <td>Beşiktaş</td> -->
+            </tr>
+
+        </tr>
+    </table>
+    
+</body>
+</html>
